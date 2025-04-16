@@ -1,0 +1,158 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.form-container {
+    background-color: pink;
+    width: 600px;
+    margin: 60px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container select {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-container input[type="submit"] {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.welcome-container {
+    display: none;
+    background-color: yellow;
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    border-radius: 10px;
+}
+
+.welcome-text {
+    font-size: 36px;
+}
+
+
+.content-container {
+    display: none;
+    background-color: orange;
+    width: 90%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.content-container h1 {
+    color: green;
+}
+
+.content-container p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.image-gallery {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid green;
+}
+
+.importance-box {
+    background-color: #d9534f;
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.importance-box h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.importance-box p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.video-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.additional-paragraph {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.additional-paragraph p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+.thank-you-section {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    color: red;
+}
+
+.thank-you-section h2 {
+    font-size: 28px;
+    color: red;
+}
+
+.thank-you-section p {
+    font-size: 16px;
+    color: #333;
+}
